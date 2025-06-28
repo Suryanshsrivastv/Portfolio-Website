@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suryansh Srivastava - Software Development Engineer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Backend Modal -->
+    <div id="backend-modal" class="backend-modal" style="display:none;">
+        <div class="backend-modal-content">
+            <span id="close-backend-modal" class="backend-modal-close" aria-label="Close warning">&times;</span>
+            <div class="backend-modal-message">
+                ⚠️ <strong>Notice:</strong> Some features may take 1–2 minutes to load if inactive, as backend services are hosted on free resources and may need to restart. Please be patient!
+            </div>
+            <button id="proceed-to-site" class="btn btn-primary" style="margin-top:1em;">Proceed to Site</button>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header>
+        <nav class="container">
+            <div class="logo">Suryansh Srivastava</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Suryansh Srivastava</h1>
+            <p class="subtitle">Software Development Engineer</p>
+            <p class="description">
+                Passionate Computer Science student leveraging technical expertise to develop innovative softwares. 
+                Adept at collaborating within dynamic teams to drive continuous improvement and achieve impactful results.
+            </p>
+            <div class="cta-buttons">
+                <a href="#projects" class="btn btn-primary">View My Work</a>
+                <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                <a href="resume.pdf" class="btn btn-primary resume-download" download target="_blank">
+                    <span style="font-size:1.2em;">📄</span> Download Resume
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        As a dedicated Computer Science student, I am passionate about creating innovative software solutions 
+                        that make a real impact. My journey in technology has been driven by curiosity and a constant desire 
+                        to learn and grow.
+                    </p>
+                    <p>
+                        I specialize in full-stack development, mobile app creation, and AI-powered solutions. My experience 
+                        spans from backend development with Java and Spring Boot to frontend technologies like React and 
+                        Android development with Kotlin.
+                    </p>
+                    <p>
+                        I believe in the power of collaboration and continuous improvement, always seeking to deliver 
+                        high-quality solutions that exceed expectations.
+                    </p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-card">
+                        <div class="stat-number">500+</div>
+                        <div class="stat-label">LeetCode Problems</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">3rd</div>
+                        <div class="stat-label">GeeksforGeeks Rank</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">9.0</div>
+                        <div class="stat-label">Current SGPA</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">100+</div>
+                        <div class="stat-label">App Users</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="container">
+            <h2 class="section-title">Skills & Expertise</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Programming Languages</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Java</span>
+                        <span class="skill-tag">Kotlin</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">SQL</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Frontend Development</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">React Native</span>
+                        <span class="skill-tag">Jetpack Compose</span>
+                        <span class="skill-tag">Android SDK</span>
+                        <span class="skill-tag">HTML/CSS</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Backend Development</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Spring Boot</span>
+                        <span class="skill-tag">Express.js</span>
+                        <span class="skill-tag">REST APIs</span>
+                        <span class="skill-tag">Firebase</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Databases & Tools</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">MySQL</span>
+                        <span class="skill-tag">MongoDB</span>
+                        <span class="skill-tag">Docker</span>
+                        <span class="skill-tag">Apache Kafka</span>
+                        <span class="skill-tag">Git</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Soft Skills</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Leadership</span>
+                        <span class="skill-tag">Collaboration</span>
+                        <span class="skill-tag">Adaptability</span>
+                        <span class="skill-tag">Communication</span>
+                        <span class="skill-tag">Critical Thinking</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Specialized</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Machine Learning</span>
+                        <span class="skill-tag">AI Development</span>
+                        <span class="skill-tag">Full-Stack Development</span>
+                        <span class="skill-tag">Mobile Development</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Competitive Programming</h3>
+                    <div class="skill-tags">
+                        <a class="skill-tag skill-link" href="https://leetcode.com/u/Suryansh_Srivastava/" target="_blank" rel="noopener">
+                            500+ LeetCode Problems <span class="external-link-icon">↗</span>
+                        </a>
+                        <a class="skill-tag skill-link" href="https://www.geeksforgeeks.org/user/stanagkqy/" target="_blank" rel="noopener">
+                            3rd Rank GeeksforGeeks <span class="external-link-icon">↗</span>
+                        </a>
+                        <a class="skill-tag skill-link" href="https://www.hackerrank.com/profile/Stanay924" target="_blank" rel="noopener">
+                            HackerRank Badges <span class="external-link-icon">↗</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="container">
+            <div class="projects-header">
+                <h2 class="section-title">Featured Projects</h2>
+                <div class="filter-buttons">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="web">Web</button>
+                    <button class="filter-btn" data-filter="mobile">Mobile</button>
+                    <button class="filter-btn" data-filter="ai">AI/ML</button>
+                </div>
+            </div>
+            <div class="projects-grid" id="projects-grid">
+                <!-- Projects will be loaded here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education">
+        <div class="container">
+            <h2 class="section-title">Education & Achievements</h2>
+            <div class="education-timeline">
+                <div class="education-item">
+                    <div class="education-content">
+                        <h3>Bachelor of Technology - Computer Science</h3>
+                        <h4>Poornima University (2022 - 2026)</h4>
+                        <p>Current SGPA: 9.0</p>
+                        <p>Focusing on software development, algorithms, and emerging technologies.</p>
+                    </div>
+                    <div class="education-dot"></div>
+                </div>
+                <div class="education-item">
+                    <div class="education-content">
+                        <h3>Class XII - CBSE Board</h3>
+                        <h4>2021-2022</h4>
+                        <p>Secured 78%</p>
+                        <p>Strong foundation in mathematics and sciences.</p>
+                    </div>
+                    <div class="education-dot"></div>
+                </div>
+            </div>
+            
+            <div style="margin-top: 3rem;">
+                <h3 style="text-align: center; color: var(--accent-blue); margin-bottom: 2rem;">Certifications & Achievements</h3>
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h3>Programming Certifications</h3>
+                        <div class="skill-tags">
+                            <a class="skill-tag skill-link" href="https://www.hackerrank.com/profile/Stanay924" target="_blank" rel="noopener">
+                                HackerRank Badges <span class="external-link-icon">↗</span>
+                            </a>
+                            <a class="skill-tag skill-link" href="https://archive.nptel.ac.in/noc/Ecertificate/?q=NPTEL22CS53S33290006" target="_blank" rel="noopener">
+                                NPTEL Java - IIT Kharagpur <span class="external-link-icon">↗</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Competitive Programming</h3>
+                        <div class="skill-tags">
+                            <a class="skill-tag skill-link" href="https://leetcode.com/Suryanshsrivastv/" target="_blank" rel="noopener">
+                                500+ LeetCode Problems <span class="external-link-icon">↗</span>
+                            </a>
+                            <a class="skill-tag skill-link" href="https://auth.geeksforgeeks.org/user/suryanshsrivastv/practice/" target="_blank" rel="noopener">
+                                3rd Rank GeeksforGeeks <span class="external-link-icon">↗</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <!-- Gmail SVG -->
+                            <svg viewBox="0 0 24 24" fill="currentColor" width="1.5em" height="1.5em" aria-hidden="true">
+                                <path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 2v.01L12 13 4 6.01V6h16zm0 12H4v-9.99l8 6.99 8-6.99V18z"/>
+                            </svg>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Email</h4>
+                            <p><a href="mailto:suryanshsrivastvv@gmail.com">suryanshsrivastvv@gmail.com</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <!-- Phone SVG -->
+                            <svg viewBox="0 0 24 24" fill="currentColor" width="1.5em" height="1.5em" aria-hidden="true">
+                                <path d="M6.62 10.79a15.053 15.053 0 006.59 6.59l2.2-2.2a1 1 0 011.01-.24c1.12.37 2.33.57 3.58.57a1 1 0 011 1V20a1 1 0 01-1 1C10.07 21 3 13.93 3 5a1 1 0 011-1h3.5a1 1 0 011 1c0 1.25.2 2.46.57 3.58a1 1 0 01-.24 1.01l-2.2 2.2z"/>
+                            </svg>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Phone</h4>
+                            <p><a href="tel:+916378471487">+91 6378471487</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <!-- Location SVG -->
+                            <svg viewBox="0 0 24 24" fill="currentColor" width="1.5em" height="1.5em" aria-hidden="true">
+                                <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
+                            </svg>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Location</h4>
+                            <p>Jaipur, Rajasthan, India</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <!-- LinkedIn SVG -->
+                            <svg viewBox="0 0 24 24" fill="currentColor" width="1.5em" height="1.5em" aria-hidden="true">
+                                <path d="M19 0h-14c-2.76 0-5 2.24-5 5v14c0 2.76 2.24 5 5 5h14c2.76 0 5-2.24 5-5v-14c0-2.76-2.24-5-5-5zm-11 19h-3v-10h3v10zm-1.5-11.27c-.97 0-1.75-.79-1.75-1.76s.78-1.76 1.75-1.76 1.75.79 1.75 1.76-.78 1.76-1.75 1.76zm13.5 11.27h-3v-5.6c0-1.34-.03-3.07-1.87-3.07-1.87 0-2.16 1.46-2.16 2.97v5.7h-3v-10h2.89v1.36h.04c.4-.75 1.37-1.54 2.82-1.54 3.01 0 3.57 1.98 3.57 4.56v5.62z"/>
+                            </svg>
+                        </div>
+                        <div class="contact-details">
+                            <h4>LinkedIn</h4>
+                            <p><a href="https://www.linkedin.com/in/suryansh-srivastava-909036291/" target="_blank">linkedin.com/in/Suryansh-srivastava</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <!-- Resume SVG (Document) -->
+                            <svg viewBox="0 0 24 24" fill="currentColor" width="1.5em" height="1.5em" aria-hidden="true">
+                                <path d="M6 2a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6H6zm7 1.5V9h5.5L13 3.5zM6 4h6v5a1 1 0 0 0 1 1h5v10a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1z"/>
+                            </svg>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Resume</h4>
+                            <p>
+                                <a href="resume.pdf" class="resume-download-link" download target="_blank">
+                                    Download Resume <span style="font-size:1em;">📄</span>
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="social-links">
+                    <a href="https://github.com/Suryanshsrivastv" target="_blank" class="social-link" aria-label="GitHub">
+                        <span style="display:inline-block; width: 1.3em; height: 1.3em; vertical-align: middle;">
+                            <svg viewBox="0 0 24 24" fill="currentColor" width="100%" height="100%" aria-hidden="true">
+                                <path d="M12 0.297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.387 0.6 0.113 0.82-0.258 0.82-0.577 0-0.285-0.011-1.04-0.017-2.04-3.338 0.726-4.042-1.61-4.042-1.61-0.546-1.387-1.333-1.756-1.333-1.756-1.089-0.745 0.084-0.729 0.084-0.729 1.205 0.084 1.84 1.236 1.84 1.236 1.07 1.834 2.809 1.304 3.495 0.997 0.108-0.775 0.418-1.305 0.762-1.605-2.665-0.305-5.466-1.332-5.466-5.931 0-1.31 0.469-2.381 1.236-3.221-0.124-0.303-0.535-1.523 0.117-3.176 0 0 1.008-0.322 3.301 1.23 0.957-0.266 1.983-0.399 3.003-0.404 1.02 0.005 2.047 0.138 3.006 0.404 2.291-1.553 3.297-1.23 3.297-1.23 0.653 1.653 0.242 2.873 0.119 3.176 0.77 0.84 1.235 1.911 1.235 3.221 0 4.609-2.803 5.624-5.475 5.921 0.43 0.372 0.823 1.102 0.823 2.222 0 1.606-0.015 2.898-0.015 3.293 0 0.322 0.216 0.694 0.825 0.576 4.765-1.589 8.2-6.085 8.2-11.386 0-6.627-5.373-12-12-12z"/>
+                            </svg>
+                        </span>
+                    </a>
+                    <a href="https://www.linkedin.com/in/suryansh-srivastava-909036291/" target="_blank" class="social-link" aria-label="LinkedIn">
+                        <span style="display:inline-block; width: 1.3em; height: 1.3em; vertical-align: middle;">
+                            <svg viewBox="0 0 24 24" fill="currentColor" width="100%" height="100%" aria-hidden="true">
+                                <path d="M19 0h-14c-2.76 0-5 2.24-5 5v14c0 2.76 2.24 5 5 5h14c2.76 0 5-2.24 5-5v-14c0-2.76-2.24-5-5-5zm-11 19h-3v-10h3v10zm-1.5-11.27c-.97 0-1.75-.79-1.75-1.76s.78-1.76 1.75-1.76 1.75.79 1.75 1.76-.78 1.76-1.75 1.76zm13.5 11.27h-3v-5.6c0-1.34-.03-3.07-1.87-3.07-1.87 0-2.16 1.46-2.16 2.97v5.7h-3v-10h2.89v1.36h.04c.4-.75 1.37-1.54 2.82-1.54 3.01 0 3.57 1.98 3.57 4.56v5.62z"/>
+                            </svg>
+                        </span>
+                    </a>
+                    <a href="mailto:suryanshsrivastvv@gmail.com" class="social-link" aria-label="Gmail">
+                        <span style="display:inline-block; width: 1.3em; height: 1.3em; vertical-align: middle;">
+                            <svg viewBox="0 0 24 24" fill="currentColor" width="100%" height="100%" aria-hidden="true">
+                                <path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 2v.01L12 13 4 6.01V6h16zm0 12H4v-9.99l8 6.99 8-6.99V18z"/>
+                            </svg>
+                        </span>
+                    </a>
+                    <a href="tel:+916378471487" class="social-link" aria-label="Call">
+                        <span style="display:inline-block; width: 1.3em; height: 1.3em; vertical-align: middle;">
+                            <svg viewBox="0 0 24 24" fill="currentColor" width="100%" height="100%" aria-hidden="true">
+                                <path d="M6.62 10.79a15.053 15.053 0 006.59 6.59l2.2-2.2a1 1 0 011.01-.24c1.12.37 2.33.57 3.58.57a1 1 0 011 1V20a1 1 0 01-1 1C10.07 21 3 13.93 3 5a1 1 0 011-1h3.5a1 1 0 011 1c0 1.25.2 2.46.57 3.58a1 1 0 01-.24 1.01l-2.2 2.2z"/>
+                            </svg>
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Suryansh Srivastava</p>
+            <button class="admin-toggle" id="admin-toggle">•</button>
+        </div>
+    </footer>
+
+    <!-- Admin Panel -->
+    <div class="admin-panel" id="admin-panel">
+        <h3>Add New Project</h3>
+        <form class="project-form" id="project-form">
+            <input type="text" id="project-name" placeholder="Project Name" required>
+            <textarea id="project-description" placeholder="Project Description" required></textarea>
+            <input type="text" id="project-tech" placeholder="Technologies (comma separated)" required>
+            <input type="text" id="project-link" placeholder="Project Link (optional)">
+            <select id="project-category" required>
+                <option value="">Select Category</option>
+                <option value="web">Web</option>
+                <option value="mobile">Mobile</option>
+                <option value="ai">AI/ML</option>
+            </select>
+            <button type="submit" class="btn btn-primary">Add Project</button>
+        </form>
+    </div>
+
+    <button class="admin-toggle" id="admin-toggle">•</button>
+
+    <script src="main.js"></script>
+</body>
+</html>
